@@ -14,8 +14,7 @@ const images = [
 
 export default function AutoSlidingCarousel() {
   return (
-    <div>
-    <div className="h-screen w-full lg:h-[600px] max-h-[calc(100vh-80px)] md:h-[500px] overflow-hidden sm:h-[400px]">
+    <div className="w-full h-auto max-h-screen overflow-hidden">
       <Swiper
         modules={[Autoplay]}
         autoplay={{ delay: 4000, disableOnInteraction: false }}
@@ -25,19 +24,18 @@ export default function AutoSlidingCarousel() {
       >
         {images.map((img, index) => (
           <SwiperSlide key={index} className="flex justify-center items-center">
-            <div className="h-full w-full relative">
+            <div className="relative w-full max-h-[90vh] aspect-[16/9]">
               <Image
                 src={img}
                 alt={`Slide ${index + 1}`}
                 fill
-                className="object-contain" // Ensures full image visibility
+                className="w-full h-full object-contain" // Ensures full visibility
                 priority
               />
             </div>
           </SwiperSlide>
         ))}
       </Swiper>
-    </div>
     </div>
   );
 }
