@@ -22,7 +22,7 @@ export default function Footer() {
 
             {/* Logo Image */}
             <Image
-              src="/images/Logoa.jpg"
+              src="/images/Logoa.JPG"
               alt="BA Doc Official Logo"
               width={100} 
               height={100}

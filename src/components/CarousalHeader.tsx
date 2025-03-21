@@ -9,7 +9,7 @@ const images = [
   '/images/home1.png',
   '/images/Home2.png',
   '/images/Home3.png',
-  '/images/Home4.GIF',
+  '/images/Home4.gif',
 ];
 
 export default function AutoSlidingCarousel() {
