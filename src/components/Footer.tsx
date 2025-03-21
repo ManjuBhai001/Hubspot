@@ -17,13 +17,13 @@ export default function Footer() {
           {/* Logo Section */}
           <div className="flex flex-col text-center items-center md:items-center">
             <h2 className="flex text-[#18A0FB] text-4xl font-bold items-center tracking-wide">
-              <span className="mr-2">B <span className="text-white italic">A</span> Doc</span>
+              <span className="mr-2">MBBS WALLAH</span>
             </h2>
 
             {/* Logo Image */}
             <Image
-              src="/images/Logoa.JPG"
-              alt="BA Doc Official Logo"
+              src="/images/LOGGO.jpg"
+              alt="MBBS official Logo"
               width={100} 
               height={100}
               priority

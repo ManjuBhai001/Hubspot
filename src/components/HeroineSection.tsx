@@ -11,7 +11,7 @@ export default function Travel4XploreSection() {
         {/* Left Side: Image & Floating Logo */}
         <div className="w-full lg:w-1/2 relative">
           <Image
-            src="/images/Logoa.JPG"
+            src="/images/LOGGO.jpg"
             alt="Get Your Doc Coat"
             width={700}
             height={500}
@@ -19,7 +19,7 @@ export default function Travel4XploreSection() {
           />
           <div className="bg-white p-2 rounded-lg shadow-md absolute left-6 top-6">
             <Image
-              src="/images/Logoa.JPG"
+              src="/images/LOGGO.jpg"
               alt="Travel4Xplore Logo"
               width={120}
               height={120}

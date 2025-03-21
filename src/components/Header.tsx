@@ -62,7 +62,7 @@ const Header: React.FC = () => {
             className="p-1 rounded-full shadow-md"
           >
             <Image
-              src="/images/Logoa.JPG"
+              src="/images/LOGGO.jpg"
               alt="BA Doc Official Logo"
               width={50}
               height={50}
